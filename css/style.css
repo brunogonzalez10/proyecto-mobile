@@ -1,0 +1,126 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+/* inicio del header */
+.background-asti{
+    background-image: url(../img/asti-bgone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 25vh;
+    width: 100%;
+}
+.bg-img{
+width: 3rem;
+border-radius: 30%;
+color: rgb(0, 0, 0);
+display: flex;
+
+
+}
+.centrar-nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+nav{
+    background-color: rgba(143, 141, 141, 0.856);
+    padding: .2rem 0;
+}
+ .navegacion-header:hover{
+   font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+ }
+ 
+  
+
+
+/* fin del header */
+/* inicio del body */
+body{
+   background-color: rgb(65, 162, 201)
+
+}
+/* inicio del main */
+.titulo-producto:hover{
+    font-size: 1.3rem;
+}
+.imagen-producto1{
+    width: 20rem;
+    height: auto;
+    
+}
+.imagen-producto2{
+    width: 20rem;
+    height: auto;
+   
+}
+.imagen-producto3{
+    width: 24rem;
+    height: auto;
+    
+}
+.elemento-padre{
+    display: flex;
+    flex-direction: column;
+}
+.card-producto{
+    border: 1px solid black;
+    border-radius: .2rem;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+} 
+.productos-titulo{
+    text-align: center;
+}
+@media only screen and (min-width:500px){
+    .elemento-padre{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+/* fin del main */
+
+/* inicio de pagina arte */
+
+.producto-arte{
+    width: 25rem;
+    height: auto;
+}
+.elemento-padre2{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card-producto2{
+    border: 1px solid black;
+    border-radius: .2rem;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+} 
+.background-art{
+    background-image: url(../pages/imagen/asti-bgone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 25vh;
+    width: 100%;
+}
+/* fin de pagina arte */
+/* inicio de pagina shirts */
